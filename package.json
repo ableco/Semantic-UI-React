@@ -1,7 +1,7 @@
 {
-  "name": "semantic-ui-react",
-  "version": "0.88.2",
-  "description": "The official Semantic-UI-React integration.",
+  "name": "@ableco/semantic-ui-react",
+  "version": "0.0.1",
+  "description": "Our own Semantic-UI-React integration.",
   "jsnext:main": "dist/es/index.js",
   "main": "dist/commonjs/index.js",
   "module": "dist/es/index.js",
