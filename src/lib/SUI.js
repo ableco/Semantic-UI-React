@@ -1680,6 +1680,7 @@ export const BRANDS = [
   'reddit',
   'reddit alien',
   'reddit square',
+  `RemixIcon ri-arrow-down-s-line`,
   'rendact',
   'renren',
   'replyd',
