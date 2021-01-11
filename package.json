@@ -1,6 +1,6 @@
 {
   "name": "@ableco/semantic-ui-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Our own Semantic-UI-React integration.",
   "jsnext:main": "dist/es/index.js",
   "main": "dist/commonjs/index.js",
@@ -20,6 +20,7 @@
     "build:docs:staging": "cross-env STAGING=true yarn build:docs && yarn serve docs/dist",
     "build:dist": "gulp --series build:dist",
     "ci": "yarn tsd:lint && yarn tsd:test && yarn lint && yarn test",
+    "prepare": "npm run build",
     "predeploy:docs": "cross-env NODE_ENV=production yarn build:docs && gulp build:docs:cname",
     "deploy:changelog": "git add CHANGELOG.md && git commit -m \"docs(changelog): update changelog [ci skip]\" && git push",
     "deploy:docs": "gulp deploy:docs",
