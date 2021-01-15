@@ -73,7 +73,7 @@ export default class SearchResult extends Component {
     renderer: PropTypes.func,
 
     /** Display title. */
-    title: PropTypes.string.isRequired,
+    title: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]).isRequired,
   }
 
   static defaultProps = {
